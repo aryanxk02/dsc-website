@@ -2,53 +2,95 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/main.css">
     <title>DSC I2IT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+
+
     <header>
-        <img class="logo" src="./Images/Logo.png" width="70px">
-        <nav>
-            <ul class="nav_links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Domains</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <a class="xyz" href="#"><button>Contact</button></a>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">GDSC I2IT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Domains</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
 
-
-    </header>
-    <div class="row">
-        <div class="left-col">
-            <h1>Welcome to Developer Students Club International Institute of Information Technology Pune</h1>
-        </div>
-
-        <div class="right-col">
-            <h3>"Ek Relatable Quote"</h3>
-        </div>
-    </div>
-
-
-    <div class="About">
-        <!-- <div class=About-left>
-            <h2>Group Photo</h2>
-        </div> -->
-
-        <div class="About-right">
-            <h2>About</h2>
-            <p>Developer Student Clubs or DSC is a program started by Google to train individuals around the world
-                to learn about a wide range of technical topics and gain new skills though hands-on workshops,
-                in person training and project building activities.</p>        
+                    </ul>
+                    <button class="btn btn-success text-dark" type="submit">Contact</button>
+                </div>
             </div>
+        </nav>
 
+        <div class="mid">
+            <div class="hero text-center">
+                <h2 class="text-light display-2 font-weight-bold">Developers Students Club</h2>
+                <p class="text-light mx-auto">International Institute of Information Technology Pune</p>
+                <a class="text-light" href="https://gdsc.community.dev/international-institute-of-information-technology-isquareit-pune/">Join us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="About py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h2>About Us</h2>
+                <p>Google Developer Student Clubs - GDSC, are community groups for college and university students 
+                     interested in Google developer technologies. Students from all undergraduate or graduate
+                     programs with an interest in growing as a developer are welcome. 
+                     By joining a GDSC, students grow their knowledge 
+                     in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
+            </div>
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="./Images/about-us.png">
+            </div>
+        </div>
     </div>
+
+    <div class="About py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h2>About Us</h2>
+                <p>Google Developer Student Clubs - GDSC, are community groups for college and university students 
+                     interested in Google developer technologies. Students from all undergraduate or graduate
+                     programs with an interest in growing as a developer are welcome. 
+                     By joining a GDSC, students grow their knowledge 
+                     in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
+            </div>
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="./Images/about-us.png">
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
