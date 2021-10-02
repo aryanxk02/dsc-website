@@ -99,9 +99,10 @@
 
 .About .text h2 {
     color: #0088a9;
-    font-weight: 800;
-    font-size: 35px;
-    letter-spacing: 2px;
+    /* font-weight: 800; */
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .About .text p {
@@ -109,4 +110,17 @@
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 0.5px;
+}
+
+.Domains {
+    background-color:grey;
+}
+
+.Team .one {
+    background: #ECF5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
