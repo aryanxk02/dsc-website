@@ -111,6 +111,61 @@
     font-size: 23px;
     letter-spacing: 0.5px;
 }
+/* --------------------About2--------------------- */
+.About2 {
+    background-color: #FFFFFF;
+}
+
+.About2 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.About2 .text h2 {
+    color: #0088a9;
+    font-weight: bolder;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.About2 .text p {
+    color: #24252A;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+}
+
+/* --------------------About3--------------------- */
+.About3 {
+    background-color: #FFFFFF;
+}
+
+.About3 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.About3 .text h2 {
+    color: #0088a9;
+    font-weight: bolder;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.About3 .text p {
+    color: #24252A;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+}
 
 .Domains {
     background-color:grey;
@@ -137,7 +192,11 @@
     position: absolute;
     left: 35px;
     right: 25px;
+    
 }
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
 
 .single-content:after {
     content: '';
@@ -166,7 +225,7 @@
 }
 
 .text-content {
-    top: 45%;
+    top: 50%;
     opacity: 0;
     z-index: 1;
     transform: translate(10%, -30%);

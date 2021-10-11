@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./Styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -17,6 +18,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 
 
     <header>
@@ -50,7 +58,7 @@
         </nav>
 
         <div class="mid">
-            <div class="hero text-center">
+            <div class="hero text-center" data-aos="fade-up">
                 <h2 class="text-light display-2 font-weight-bold">Developers Students Club</h2>
                 <p class="text-light mx-auto">International Institute of Information Technology Pune</p>
                 <a class="text-light"
@@ -62,7 +70,7 @@
 
     <div class="About">
         <div class="row align-items-center container my-5 mx-auto">
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5" data-aos="fade-right">
                 <h2>About Us</h2>
                 <p>Google Developer Student Clubs - GDSC, are community groups for college and university students
                     interested in Google developer technologies. Students from all undergraduate or graduate
@@ -71,57 +79,61 @@
                     in a peer-to-peer learning environment and build solutions for local businesses and their community.
                 </p>
             </div>
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5">
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5" data-aos="fade-left">
                 <img class="img-fluid" src="./Images/about-us.png">
             </div>
         </div>
     </div>
-    
-    <div class="About">
-        <div class="row align-items-center container my-5 mx-auto pt-6">
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5">
-                <img class="img-fluid" src="./Images/mission.png">
+
+    <div class="About2">
+        <div class="row align-items-center container my-5 mx-auto pt-6 pb-5">
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5" data-aos="fade-right">
+                <img class="img-fluid" src="./Images/mission-2.jpg">
             </div>
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5" data-aos="fade-left">
                 <h2>Our Mission</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Deserunt, provident, optio molestiae eaque laborum blanditiis 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt, provident, optio molestiae eaque laborum blanditiis
                     minima quia officia ea ipsam quaerat odit sequi tempore. Nisi!
                 </p>
             </div>
 
         </div>
     </div>
-    
-    <div class="About">
-        <div class="row align-items-center container my-5 mx-auto pt-6">
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5">
+
+    <div class="About3">
+        <div class="row align-items-center container my-5 mx-auto pt-6 pb-5">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5" data-aos="fade-right">
                 <h2>Our Vision</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Deserunt, provident, optio molestiae eaque laborum blanditiis 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt, provident, optio molestiae eaque laborum blanditiis
                     minima quia officia ea ipsam quaerat odit sequi tempore. Nisi!
                 </p>
             </div>
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5">
-                <img class="img-fluid" src="./Images/vision.png">
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5" data-aos="fade-left">
+                <img class="img-fluid" src="./Images/vision2.png">
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container text-center pb-5">
         <div class="row">
-            <h2>Our Team</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, non.</p>
-            <div class="col-md-3 col-sm-6">
+            <h1 data-aos="fade-up">Our Team</h1>
+            <h4 data-aos="fade-up">The strength of the team is each individual member and the strength of each member is the team</h4>
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Rohini Rao.jpeg" alt="">
                     <div class="text-content">
                         <h4>Rohini Rao</h4>
                         <h5>GDSC Lead</h5>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Akhil Bhalerao.jpeg" alt="">
                     <div class="text-content">
@@ -130,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Naman.png" alt="">
                     <div class="text-content">
@@ -139,7 +151,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Sidharth Kumthekar.jpg.jpg" alt="">
                     <div class="text-content">
@@ -148,7 +160,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/AseemKhandekar.jpg" alt="">
                     <div class="text-content">
@@ -157,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Bhavesh_Joshi.jpg" alt="">
                     <div class="text-content">
@@ -166,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Namitaa.jpeg" alt="">
                     <div class="text-content">
@@ -175,7 +187,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Palak oza.jpg" alt="">
                     <div class="text-content">
@@ -184,7 +196,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/ayushi dorle.jpg" alt="">
                     <div class="text-content">
@@ -193,7 +205,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Yashowardhan Shinde.jpeg" alt="">
                     <div class="text-content">
@@ -202,7 +214,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Aryan.jpeg" alt="">
                     <div class="text-content">
@@ -211,7 +223,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/SumitPatil.jpg" alt="">
                     <div class="text-content">
@@ -220,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Varshitha.jpg" alt="">
                     <div class="text-content">
@@ -229,8 +241,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/yashpanchwatkar.png" alt="">
                     <div class="text-content">
@@ -239,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Manas Tole.jpg" alt="">
                     <div class="text-content">
@@ -248,7 +259,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/swarnim.jpg" alt="">
                     <div class="text-content">
@@ -257,7 +268,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Atharva Pingale.jpg" alt="">
                     <div class="text-content">
@@ -266,7 +277,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Ishan Srivastava.jpg" alt="">
                     <div class="text-content">
@@ -275,7 +286,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Pratham_Sonawane.jpg" alt="">
                     <div class="text-content">
@@ -284,7 +295,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
                 <div class="single-content">
                     <img src="./Images/Team/Pratham_Sonawane.jpg" alt="">
                     <div class="text-content">
